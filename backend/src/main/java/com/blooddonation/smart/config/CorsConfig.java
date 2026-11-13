@@ -17,7 +17,8 @@ public class CorsConfig {
                 registry.addMapping("/api/**")
                     .allowedOrigins(
                         "http://localhost:5173",
-                        "https://smart-blood-donation-system-beta.vercel.app"
+                        "https://smart-blood-donation-system-beta.vercel.app",
+                        "https://smart-blood-donation-system-oznlkzh0g-tanujs-projects-55e9ba03.vercel.app"
                     )
                     .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                     .allowedHeaders("*");
